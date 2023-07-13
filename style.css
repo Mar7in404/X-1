@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; color: #000000;
+    flex: auto;
+    background-image: linear-gradient(#9DB2BF, #526D82);
+    background-image: linear-gradient(to right, #DDE6ED, #9DB2BF, #27374D);  
+}
+h1{
+    position: relative;
+    left: 35%;
+}
+#Summary{
+    margin-inline: 5%;
+}
+#education{
+    margin-inline: 5%;
+}
+#experience{
+    margin-inline: 5%;
+}
+#skills{
+    margin-inline: 5%;
+}
+#Language{
+    margin-inline: 5%
+}
+#Contact{
+    margin-inline: 5%;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .alert-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .alert-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .alert-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .alert-button {
+    background-color: #27374D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .alert-button:hover {
+    background-color: #27374D;
+  }
